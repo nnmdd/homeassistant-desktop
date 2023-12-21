@@ -15,7 +15,7 @@
     "build-local-mac-arm": "electron-builder build --mac --arm64 --publish never",
     "build-local-linux": "electron-builder build --linux appimage --x64 --publish never",
     "build-local-linux-arm": "electron-builder build --linux rpm --arm64 --publish never",
-    "build-local-win": "electron-builder build --win --x64 --publish never",
+    "build-local-win": "electron-builder build --win --x64 --publish always",
     "build-local-win-arm": "electron-builder build --win --arm64 --publish never",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
